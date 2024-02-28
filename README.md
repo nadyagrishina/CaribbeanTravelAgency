@@ -12,5 +12,5 @@ Explore the live demo: [Caribbean Travel Agency](https://nadyagrishina.github.io
 - jQuery
 - Slick.js (for image sliders)
    
-##Credits
+## Credits
 This project was created by Nadezhda Grishina as part of the TNPW1 course (Univerzita Hradec Králové).
