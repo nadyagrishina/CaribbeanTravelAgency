@@ -1,0 +1,478 @@
+@media(max-width: 1170px) {
+  .galerie__slide img {
+    height: 250px;
+    width: 400px;
+  }
+}
+
+@media(max-width: 960px) {
+  .order__form textarea {
+    max-width: 97.5%;
+    margin: 0 0 20px;
+  }
+}
+
+@media(max-width: 940px) {
+  .destinations-about__main-img img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width: 900px) {
+  .galerie__text-block {
+    max-width: 350px;
+  }
+    td{
+      display: inline-block;
+      text-align: center;
+      min-width: 120px;
+    }
+    tr{
+      min-width: 100px;
+    }
+     
+}
+
+@media(max-width: 815px) {
+  .header__title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .header__subtitle {
+    font-size: 22px;
+  }
+
+  .nav-inner__items {
+    max-width: 400px;
+  }
+
+  .benefits-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefits__item {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 270px;
+    align-items: center;
+    box-shadow: 0px 0px 26px 5px rgba(16, 134, 144, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .benefits {
+    margin-top: 40px;
+  }
+
+  .benefits__item p {
+    margin: 10px 40px;
+  }
+
+  h4 {
+    margin-top: 20px;
+  }
+
+  .destinations-about__item p {
+    max-width: 50%;
+  }
+
+  .destinations-about__item img {
+    width: 45%;
+    height: 35%;
+  }
+
+  .destinations-about__item {
+    width: 90%;
+  }
+  .contacts__adress{
+    padding: 20px 20px;
+    right: 10px;
+    left: auto;
+  }
+}
+
+@media(max-width: 767px) {
+  .order__contacts input {
+    width: 200px;
+  }
+    td {
+      min-width: 100px;
+    }
+}
+
+@media(max-width: 740px) {
+  .header__title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+  }
+
+  .nav-inner__items {
+    max-width: 300px;
+  }
+
+  .galerie__text {
+    flex-direction: column;
+    margin-top: 25px;
+    align-items: center;
+  }
+
+  .galerie__text-block {
+    max-width: 500px;
+  }
+
+  .team-item img {
+    max-height: 200px;
+  }
+
+  .team__people {
+    padding: 0 40px;
+  }
+
+  .destination-about__offer h2 {
+    padding: 20px 10px;
+  }
+
+  .destination-about__offer p {
+    top: 85px;
+  }
+
+  .destinations-about__item p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .destionations-hotels__items {
+    flex-direction: column;
+  }
+
+  .destionations-hotels__item {
+    min-width: 400px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+
+  .destionations-hotels__item img {
+    width: 400px;
+    height: 200px;
+  }
+
+  .hotels__about {
+    max-width: 400px;
+  }
+
+  .hotels__stars img {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+  }
+    .hotels__info{
+      max-width: 400px;
+    }
+}
+
+@media(max-width: 710px) {
+  .header__title {
+    font-size: 37px;
+    line-height: 45px;
+  }
+
+  .header__subtitle {
+    font-size: 16px;
+  }
+
+  .order__contacts {
+    flex-direction: column;
+  }
+
+  .order__contacts input {
+    width: 400px;
+    margin-bottom: 10px;
+  }
+
+  .order__form textarea {
+    max-width: 400px;
+    margin: 0 0 20px;
+  }
+
+  .order__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .destination-about__offer h2 {
+    padding: 30px 20px;
+    font-size: 22px;
+  }
+
+  .destination-about__offer p {
+    top: 75px;
+  }
+
+  .destinations-about__main-img img {
+    margin-bottom: 20px;
+  }
+
+  .destinations__about {
+    margin-top: 25px;
+  }
+    td {
+      min-width: 110px;
+    }
+}
+
+@media(max-width:630px) {
+  .destinations__items {
+    flex-direction: column;
+  }
+
+  .destinations-bahamas {
+    height: 250px;
+  }
+
+  .destinations__item {
+    height: 250px;
+    width: 400px;
+  }
+
+  .footer {
+    text-align: center;
+    line-height: 16px;
+  }
+
+  .destination-about__offer h2 {
+    padding: 15px 10px;
+    font-size: 17px;
+  }
+
+  .destination-about__offer {
+    top: 80px;
+  }
+
+  .destination-about__offer p {
+    top: 35px;
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+
+  .destinations-about__item {
+    flex-direction: column;
+  }
+
+  .destinations-about__item:nth-of-type(2) {
+    flex-direction: column;
+  }
+
+  .destinations-about__item p {
+    max-width: 100%;
+  }
+
+  .destinations-about__item img {
+    width: 300px;
+    height: 200px;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:600px) {
+  .nav-inner {
+    height: 60px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  td {
+    min-width: 120px;
+  }
+
+  .contacts__adress {
+    padding: 10px;
+  }
+
+  .contacts__city {
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+
+  .contacts__street {
+    font-size: 14px;
+    text-align: center;
+    line-height: 14px;
+  }
+
+  .contacts__mail {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 535px) {
+  .header__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .header__btn {
+    font-size: 10px;
+  }
+
+  .header {
+    height: 560px;
+  }
+
+  .galerie__text-block {
+    max-width: 350px;
+  }
+
+  .team__people {
+    padding: 0 10px;
+  }
+
+  .destinations-about__main-img img {
+    height: 250px;
+  }
+  .destination__title h1{
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 500px) {
+  .header__title {
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .header__btn {
+    font-size: 10px;
+  }
+
+  .header__menu {
+    display: block;
+  }
+
+  .contacts {
+    width: 100%;
+  }
+
+  .header__text {
+    top: 60%;
+    transform: translate(0, -60%);
+  }
+
+  .benefits__item {
+    width: 290px;
+    height: 290px;
+  }
+
+  .benefits__item p {
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 15px;
+    min-height: 20px;
+  }
+
+  .benefits {
+    margin-top: 30px;
+  }
+
+  .galerie__slide img {
+    height: 180px;
+    width: 290px;
+  }
+
+  .destinations-about__main-img img {
+    height: 230px;
+  }
+
+}
+
+@media(max-width: 470px) {
+  .team__people {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-item {
+    margin-bottom: 20px;
+  }
+
+  .destinations-about__main-img img {
+    height: 210px;
+  }
+    .order__contacts input {
+      width: 280px;
+      margin-bottom: 10px;
+    }
+  
+    .order__form textarea {
+      max-width: 280px;
+      margin: 0 0 20px;
+    }
+  
+    .contacts__adress {
+      right: auto;
+      left: 10px;
+      padding: 15px;
+    }
+}
+
+@media(max-width: 430px) {
+  .destinations-bahamas {
+      height: 200px;
+    }
+  
+    .destinations__item {
+      height: 220px;
+      width: 300px;
+    }
+  
+    .order__form button {
+      margin-bottom: 25px;
+    }
+  .destinations-about__main-img img {
+    height: 190px;
+  }
+  
+    .destionations-hotels__item {
+      min-width: 300px;
+      height: 350px;
+      margin-bottom: 20px;
+    }
+  
+    .destionations-hotels__item img {
+      width: 300px;
+      height: 180px;
+    }
+  
+    .hotels__about {
+      max-width: 350px;
+    }
+  
+    .hotels__stars img {
+      width: 17px;
+      height: 17px;
+      display: inline-block;
+    }
+  
+    .hotels__info {
+      max-width: 350px;
+    }
+}

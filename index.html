@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Karibik</title>
+  <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/media.css" type="text/css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="header__menu">
+          <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="">
+            <p class="logo__meaning">cestovní kancelář</p>
+          </a>
+          <div class="contacts">
+            <a class="header-contacts__link" href="#"><img src="images/instagram.svg" alt="instagram"></a>
+            <a class="header-contacts__link" href="#"><img src="images/facebook.svg" alt="facebook"></a>
+            <a class="header__phone header-contacts__link" href="#"> +420 778 900 900</a>
+          </div>
+        </div>
+        <div class="header__text">
+          <h1 class="header__title">
+            Výhodné zájezdy do <span>Karibiku</span> pro celou rodinu!
+          </h1>
+          <h2 class="header__subtitle">
+            Nabízíme více než 50 možností dovolené v kteroukoli roční dobu.
+          </h2>
+          <div class="btn">
+            <a href="#order" class="header__btn">
+              Objednat
+            </a>
+          </div>
+        </div>
+        <div class="header__arrow">
+          <a class="arrow" href="#navigation">
+            <img src="images/arrow.svg" alt="image of arrow">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navigation" id="navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <ul class="menu nav-inner__items">
+          <li class="nav-inner__about">
+            <a href="index.html">O nás</a>
+          </li>
+          <li class="nav-inner__item nav-destinace">
+            <button onclick="myFunction()" class="dropbtn">
+              Destinace
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="bahamas.html">Bahamy</a>
+              <a href="barbados.html">Barbados</a>
+              <a href="stlucia.html">Svatá Lucie</a>
+            </div>
+          </li>
+          <li class="nav-inner__item nav-contacts">
+            <a href="contacts.html">
+              Kontakty
+            </a>
+          </li>
+        </ul>
+        <div class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-inner__item nav__search">
+
+          <form class="nav__search">
+            <label for="search">Najit</label>
+            <input type="search" class="nav-input" placeholder="Najit" id="search">
+            <label for="find">Najit</label>
+            <input type="submit" class="nav-button" value=" " style="background-image: url(images/search.svg);"
+              id="find">
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="mobile__menu">
+    <ul class="mobile-menu__list">
+      <li><a href="index.html">O nás</a></li>
+      <li>
+        <a onclick="myFunction()" class="dropbtn" href="#">
+          Destinace:
+        </a>
+        <div class="menu__destinations">
+          <a href="bahamas.html">Bahamy</a>
+          <a href="barbados.html">Barbados</a>
+          <a href="stlucia.html">Svatá Lucie</a>
+        </div>
+      </li>
+      <li><a href="contacts.html">Kontakty</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="benefits" id="benefits">
+      <div class="container">
+        <div class="benefits-inner">
+          <div class="benefits__item">
+            <img src="images/icon1.svg" alt="">
+            <h4>Kontrola kvality</h4>
+            <p>Pro nás je důležité vše - kvalita práce manažerů se zákazníky, talent a profesionalita průvodců,
+              bezpečnost a komfort
+              dopravy. </p>
+          </div>
+          <div class="benefits__item">
+            <img src="images/icon2.svg" alt="">
+            <h4>Individuální přístup</h4>
+            <p>Každý zákazník je pro nás jiný. Hlavní věcí pro nás je poskytnout vám příležitost k dobrému odpočinku a
+              pro každého
+              našeho klienta bude dovolená zvláštní.</p>
+          </div>
+          <div class="benefits__item">
+            <img src="images/icon3.svg" alt="">
+            <h4>10 let na trhu</h4>
+            <p>Většina našich zaměstnanců má více než 5 let zkušeností s cestovním ruchem a cestovala do mnoha zemí
+              světa. Každý rok
+              navštíví stovky hotelů.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="galerie">
+      <div class="container">
+        <h3 class="galerie__title">
+          Galerie
+        </h3>
+      </div>
+
+      <div class="galerie__slider">
+        <div class="galerie__slide"><img src="images/slide1.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide2.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide3.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide4.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide5.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide6.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide7.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide8.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide9.jpg" alt=""></div>
+        <div class="galerie__slide"><img src="images/slide10.jpg" alt=""></div>
+      </div>
+
+      <div class="container">
+        <div class="galerie__text">
+          <div class="galerie__text-block">
+            <p class="galerie-text__item">Karibské ostrovy jsou ideálním místem pro šnorchlování . Moře je zde stejně
+              krásné jako země ostrovů. Bílé, růžové a
+              černé písečné pláže omývané křišťálově čistými vodami jsou doslova stvořeny k odpočinku.</p>
+            <p class="galerie-text__item">Díky svému klimatu jsou letoviska v Karibiku právem považována za jedny z
+              nejlepších na světě.</p>
+            <p class="galerie-text__item">Národní kuchyně karibských národů se mísila z mnoha dalších. například na
+              ostrově Barbados je poctou smažená Létající
+              ryba.</p>
+          </div>
+          <div class="galerie__text-block">
+            <p class="galerie-text__item">Důvody popularity karibu na turistickém trhu jsou zřejmé: po celý rok teplé
+              moře, úžasná krása Příroda, velký výběr
+              hotelů a celá řada aktivit — vodní a "suché" sporty, noční kluby, diskotéky, restaurace, zajímavé výlety.
+            </p>
+            <p class="galerie-text__item">Svatá Lucie je hrdým titulem "Garden Island" a je jedním z nejkrásnějších
+              ostrovů v Karibiku.</p>
+            <p class="galerie-text__item">V Karibiku zbožňují hudbu. Hudba Carib je reggae, salsa, chutney, Calypso a
+              takzvaná Panenská Hudba.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="destinations" id="destinations">
+      <div class="container">
+        <div class="destinations-inner">
+          <h3 class="destinations__title">Destinace</h3>
+          <div class="destinations__items">
+            <a target="_self" href="bahamas.html" style="background-image: url(images/bahamas.jpg) ; "
+              class="destinations__item destinations-bahamas">
+              Bahamy
+            </a>
+            <div class="destinations__group">
+              <a target="_self" href="barbados.html" style="background-image: url(images/barbados.jpg) ; "
+                class="destinations__item">
+                Barbados
+              </a>
+              <a target="_self" href="stlucia.html" style="background-image: url(images/stlucia.jpg) ; "
+                class="destinations__item">
+                Svatá Lucie
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <div class="container">
+        <div class="team-inner">
+          <h3>Náš tým</h3>
+          <div class="team__people">
+            <div class="team-item">
+              <img src="images/worker1.png" alt="" class="teams_photo">
+              <p class="team__name">Krištof</p>
+            </div>
+            <div class="team-item">
+              <img src="images/worker2.png" alt="" class="teams_photo">
+              <p class="team__name">Karolína</p>
+            </div>
+            <div class="team-item">
+              <img src="images/worker3.png" alt="" class="teams_photo">
+              <p class="team__name">Patrik</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="container">
+        <div class="order-inner">
+          <h3>Zanechat žádost</h3>
+          <p>Máte otázky? Zanechte své kontakty a my se vám ozveme.</p>
+          <form class="order__form">
+            <div class="order__contacts">
+              <div class="order__name">
+                <label for="name">Jmeno</label>
+                <input id="name" type="text" placeholder=" ">
+              </div>
+              <div class="order__mail">
+                <label for="mail">E-mail</label>
+                <input id="mail" type="text" placeholder=" ">
+              </div>
+              <div class="order__phone">
+                <label for="tel">Telefon</label>
+                <input id="tel" type="text" placeholder=" ">
+              </div>
+            </div>
+            <div class="order__message">
+              <label for="message">Komentáře</label>
+              <textarea id="message" placeholder=" "></textarea>
+            </div>
+            <button onclick="alert('Děkujeme vám! Brzy vás budeme kontaktovat.');return true;" class="draw-border order__btn" type="submit">Odeslat</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>Vytvořeno jako zápočtový projekt v rámci předmětu TNPW1 © Nadezhda Grishina 2022</p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kontakty</title>
+  <link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/media.css" type="text/css">
+</head>
+
+<body>
+  <header style="background-image: url(images/bahamas-bg.jpg) ;" class="destinations_header">
+    <div class="container">
+      <div class="destinations__header-inner">
+        <div class="header__menu">
+          <a href="index.html" class="logo">
+            <img src="images/logo.svg" alt="">
+            <p class="logo__meaning">cestovní kancelář</p>
+          </a>
+          <div class="contacts">
+            <a class="header-contacts__link" href="#"><img src="images/instagram.svg" alt="instagram"></a>
+            <a class="header-contacts__link" href="#"><img src="images/facebook.svg" alt="facebook"></a>
+            <a class="header__phone header-contacts__link" href="#"> +420 778 900 900</a>
+          </div>
+        </div>
+        <div class="destination__title">
+          <h1>Kontakty</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navigation" id="navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <ul class="menu nav-inner__items">
+          <li class="nav-inner__about">
+            <a href="index.html">O nás</a>
+          </li>
+          <li class="nav-inner__item nav-destinace">
+            <button onclick="myFunction()" class="dropbtn">
+              Destinace
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="bahamas.html">Bahamy</a>
+              <a href="barbados.html">Barbados</a>
+              <a href="stlucia.html">Svatá Lucie</a>
+            </div>
+          </li>
+          <li class="nav-inner__item nav-contacts">
+            <a href="contacts.html">
+              Kontakty
+            </a>
+          </li>
+        </ul>
+        <div class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-inner__item nav__search">
+
+          <form class="nav__search">
+            <label for="search">Najit</label>
+            <input type="search" class="nav-input" placeholder="Najit" id="search">
+            <label for="find">Najit</label>
+            <input type="submit" class="nav-button" value=" " style="background-image: url(images/search.svg);" id="find">
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="mobile__menu">
+    <ul class="mobile-menu__list">
+      <li><a href="index.html">O nás</a></li>
+      <li>
+        <a onclick="myFunction()" class="dropbtn" href="#">
+          Destinace:
+        </a>
+        <div class="menu__destinations">
+          <a href="bahamas.html">Bahamy</a>
+          <a href="barbados.html">Barbados</a>
+          <a href="stlucia.html">Svatá Lucie</a>
+        </div>
+      </li>
+      <li><a href="contacts.html">Kontakty</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="contacts__map">
+      <div class="contacts-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2553.8905144237374!2d15.837783015456854!3d50.200577413219314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470dd4c97b1da0ad%3A0x75215a9d147f751e!2zU29rb2xza8OhIDcxNi8xMCwgTm92w70gSHJhZGVjIEtyw6Fsb3bDqSwgNTAwIDEyIEhyYWRlYyBLcsOhbG92w6k!5e0!3m2!1sru!2scz!4v1668585607022!5m2!1sru!2scz"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="container">
+        <div class="contacts__adress">
+          <h4 class="contacts__city">
+            Hradec Králové
+          </h4>
+          <div class="contacts__street">
+            Sokolská 716/10
+            Nový Hradec Králové,
+            500 12 Hradec Králové
+          </div>
+          <div class="contacts__mail">
+            info@karibik.com
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="container">
+        <div class="order-inner">
+          <h3>Zanechat žádost</h3>
+          <p>Máte otázky? Zanechte své kontakty a my se vám ozveme.</p>
+          <form class="order__form">
+            <div class="order__contacts">
+              <div class="order__name">
+                <label for="name">Jmeno</label>
+                <input id="name" type="text" placeholder=" ">
+              </div>
+              <div class="order__mail">
+                <label for="mail">E-mail</label>
+                <input id="mail" type="text" placeholder=" ">
+              </div>
+              <div class="order__phone">
+                <label for="tel">Telefon</label>
+                <input id="tel" type="text" placeholder=" ">
+              </div>
+            </div>
+            <div class="order__message">
+              <label for="message">Komentáře</label>
+              <textarea id="message" placeholder=" "></textarea>
+            </div>
+            <button onclick="alert('Děkujeme vám! Brzy vás budeme kontaktovat.');return true;" class="draw-border order__btn"
+              type="submit">Odeslat</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>Vytvořeno jako zápočtový projekt v rámci předmětu TNPW1 © Nadezhda Grishina 2022</p>
+    </div>
+  </footer>
+  <div style="display: none;" id="hidden">
+    <p>Děkujeme vám! Brzy vás budeme kontaktovat.</p>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
