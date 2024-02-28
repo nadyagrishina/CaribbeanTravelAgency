@@ -35,43 +35,46 @@
     </div>
   </header>
   <main>
-    <section class="navigation" id="navigation">
-      <div class="container">
-        <nav class="nav-inner">
-          <ul class="menu">
-            <li class="nav-inner__about">
-              <a href="main.html">O nás</a>
-            </li>
-    
-            <li class="nav-inner__item nav-destinace">
-              <button onclick="myFunction()" class="dropbtn">
-                Destinace
-              </button>
-              <div id="myDropdown" class="dropdown-content">
-                <a href="bahamas.html">Bahamy</a>
-                <a href="barbados.html">Barbados</a>
-                <a href="stlucia.html">Svatá Lucie</a>
-              </div>
-            </li>
-            <li class="nav-inner__item nav-contacts">
-              <a href="contacts.html">
-                Kontakty
-              </a>
-            </li>
-            <div class="nav-inner__item nav__search">
-              <form>
-                <form class="nav__search">
-                  <input type="search" class="nav-input" placeholder="Najit">
-                  <input type="submit" class="nav-button" value=" " style="background-image: url(images/search.svg);">
-                </form>
-              </form>
+    <nav class="navigation" id="navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <ul class="menu nav-inner__items">
+          <li class="nav-inner__about">
+            <a href="index.html">O nás</a>
+          </li>
+          <li class="nav-inner__item nav-destinace">
+            <button onclick="myFunction()" class="dropbtn">
+              Destinace
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="bahamas.html">Bahamy</a>
+              <a href="barbados.html">Barbados</a>
+              <a href="stlucia.html">Svatá Lucie</a>
             </div>
-    
-          </ul>
-        </nav>
-    
+          </li>
+          <li class="nav-inner__item nav-contacts">
+            <a href="contacts.html">
+              Kontakty
+            </a>
+          </li>
+        </ul>
+        <div class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-inner__item nav__search">
+  
+          <form class="nav__search">
+            <label for="search">Najit</label>
+            <input type="search" class="nav-input" placeholder="Najit" id="search">
+            <label for="find">Najit</label>
+            <input type="submit" class="nav-button" value=" " style="background-image: url(images/search.svg);" id="find">
+          </form>
+        </div>
       </div>
-    </section>
+    </div>
+  </nav>
     
     <section class="destinations__about">
       <div class="container">
